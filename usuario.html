@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <script src="formulario.js"></script>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body >
+    <h1>Elegi Tu Diseño</h1>
+    <i>En las siguientes preguntas podras indicarnos que estilo te gustaria mas para tu remera.
+        Y tambien te solicitamos tus datos para contactarte.
+        Desde ya muchas gracias.
+        ~LuTa~</i>
+
+    <form action="" method="get">
+    <h3>Completa tus datos asi nos comunicamos con vos.</h3>
+     <fieldset>
+                <legend>Datos Del Cliente </legend>
+                <div class="flex-wrapper">
+                    <div>
+                         <label for="Nombre">Nombre</label>
+                        <input type="text" id="Nombre"  required size="30" maxlength="100">
+                    </div>
+                    <div>
+                        <label for="Edad">Edad</label>
+                        <input type="text" id="Edad" required size="3" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="Domicilio">Domicilio</label>
+                        <input type="text" id="Domicilio" required>
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" required>
+                    </div>
+                    <div>
+                        <label for="Telefono">Telefono</label>
+                        <input type="text"id="Telefono" >
+                    </div>
+                    
+                </div>
+            </fieldset>
+            
+     <input type="submit" onclick="EnviarFormulario()" value="Enviar">
+        </form>
+    </body>
+    
+
+</html>
